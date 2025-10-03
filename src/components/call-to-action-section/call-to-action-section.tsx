@@ -1,13 +1,6 @@
-import { ArrowRight, Store } from "lucide-react";
-import { Button } from "../ui/button";
-import Link from "next/link";
-import { PT_Sans_Caption } from "next/font/google";
+import { Store } from "lucide-react";
 
-
-const ptSansCaption = PT_Sans_Caption({
-    subsets: ['latin'],
-    weight: '700'
-})
+import { ButtonLink } from "../button-link/button-link";
 
 export function CallToactionSection() {
     return (
@@ -17,15 +10,10 @@ export function CallToactionSection() {
                     <div className="absolute -top-28 p-4 bg-cyan-300 w-fit rounded-full">
                         <Store className="text-cyan-100" />
                     </div>
-                    <h2 className={`${ptSansCaption.className} text-gray-100 text-balance text-heading-xl`}>
+                    <h2 className="font-sans text-balance text-heading-md md:text-heading-xl text-gray-100 text-center md:max-w-md max-w-full">
                         Crie uma loja online e inicie suas vendas ainda hoje
                     </h2>
-                    <Button variant="primary" className="mt-6" asChild>
-                        <Link href="/new-store">
-                            Criar loja grátis
-                            <ArrowRight className=" h-4 w-4" />
-                        </Link>
-                    </Button>
+                    <ButtonLink title={"Criar loja grátis"} href="/new-store" />
                 </div>
             </div>
         </section>

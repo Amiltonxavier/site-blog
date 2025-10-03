@@ -1,7 +1,5 @@
 import { HeartHandshake, PaintbrushVertical, Store } from "lucide-react"
 
-
-
 export function SupportSection() {
     return (
         <section className=" pb-8 md:py-10 bg-gradient-to-r from-gray-500 to-gray-700">
@@ -16,7 +14,7 @@ export function SupportSection() {
                         </div>
 
                         <strong className="text-heading-sm text-white">Personalize seu site</strong>
-                        <p className="text-body-sm text-gray-200">Adcione sua logo, favicon, cores no seu catalago e tenha tudo com a sua cara</p>
+                        <p className="text-body-sm text-gray-200">Adicione sua logo, favicon, cores no seu catalago e tenha tudo com a sua cara</p>
                     </div>
                     <div className="flex flex-col text-left gap-2 rounded-lg p-6 md:p-12 bg-cyan-300">
                         <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-cyan-200 mb-4">
