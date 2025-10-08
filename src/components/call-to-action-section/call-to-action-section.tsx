@@ -4,7 +4,8 @@ import { ButtonLink } from "../button-link/button-link";
 
 export function CallToactionSection() {
     return (
-        <section className="py-24 bg-gradient-to-b from-cyan-950/20 to-gray-700">
+        <section className="relative py-24 bg-gradient-to-b from-cyan-950/20 to-gray-700">
+            <div className="absolute inset-0 hidden md:block bg-[url('/background-footer.svg')] bg-cover bg-center bg-no-repeat opacity-90" />
             <div className="container relative">
                 <div className="flex flex-col items-center gap-6 text-center">
                     <div className="absolute -top-28 p-4 bg-cyan-300 w-fit rounded-full">
