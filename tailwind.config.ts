@@ -22,12 +22,12 @@ export default {
         md: "calc(0.5rem - 2px)",
         sm: "calc(0.5rem - 4px)",
       },
+
       fontFamily: {
         sans: ["var(--font-sans)", "sans-serif"],
         inter: ["var(--font-inter)", "sans-serif"],
       },
       fontSize: {
-        /* Headings - PT Sans Caption */
         "heading-hg": ["40px", { lineHeight: "120%", fontWeight: "700" }],
         "heading-xl": ["32px", { lineHeight: "120%", fontWeight: "700" }],
         "heading-lg": ["28px", { lineHeight: "120%", fontWeight: "700" }],
