@@ -1,40 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Blog App
 
-## Getting Started
+Aplicação de blog moderna desenvolvida com Next.js, TypeScript e Styled Components.
 
-First, run the development server:
+## Sobre a Aplicação
+
+Um blog pessoal elegante e responsivo, permitindo a criação, edição e publicação de artigos. O projeto foi desenvolvido com foco em performance, design moderno e uma ótima experiência do usuário.
+
+## Funcionalidades
+
+- Visualização de posts em um layout grid responsivo
+- Detalhe de cada post com conteúdo formatado
+- Categorização de artigos
+- Design moderno com tema claro
+- Totalmente responsivo para mobile e desktop
+
+## Tecnologias
+
+- **Next.js** - Framework React com SSR
+- **TypeScript** - Tipagem estática
+- **Styled Components** - Estilização CSS-in-JS
+- **React Hooks** - Gerenciamento de estado
+
+## Screenshots
+
+### Página Principal (Hero)
+![Hero](./public/img/hero.png)
+
+### Rodapé
+![Footer](./public/img/footer.png)
+
+## Como Executar
 
 ```bash
+# Instalar dependências
+npm install
+
+# Iniciar servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Executar em produção
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O servidor estará disponível em [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Estrutura do Projeto
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+```
+blog-app/
+├── public/img/          # Imagens e assets
+├── src/
+│   ├── pages/          # Rotas e páginas
+│   ├── components/     # Componentes React
+│   └── styles/         # Estilos globais
+└── README.md
+```
